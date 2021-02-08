@@ -1,0 +1,362 @@
+@import url("fonts.css");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main_header {
+    background-color: white;
+    height: 48px;
+}
+
+.main_header h6 {
+    font-family: Roboto-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2B2C36;
+    margin-top: 7px;
+
+}
+
+.main_header p {
+    font-family: Roboto-Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #989898;
+}
+
+.logo_class {
+    display: flex;
+
+}
+
+.logo {
+    margin: 14px 20px
+}
+
+.logo2 {
+    width: 45px;
+    height: 20px;
+    margin-top: 15px;
+
+}
+
+#class_sidebar {
+    background: #2B2C36;
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+}
+
+
+.ul_sidebar {
+    list-style: none;
+    padding: 0px;
+
+}
+
+.ul_sidebar li_sidebar {
+    color: white
+}
+
+.a_sidebar {
+    color: white;
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none
+}
+
+.li_sidebar {
+    padding: 18px 0px;
+    font-family: Roboto-Regular;
+
+}
+
+.li_sidebar {
+    padding: 18px 0px;
+    font-family: Roboto-Regular;
+
+}
+
+.list_image {
+    margin-right: 15px;
+}
+
+/*------------------------------------------------*/
+
+#table_section {
+    background: #E5E7F3;
+}
+
+.table_head {
+    background: #484952;
+    height: 40px;
+}
+
+.table_head h3 {
+    font-family: Roboto-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 12px 22px;
+}
+
+thead {
+    background: #E7E7E7;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+
+}
+
+tbody {
+    background-color: white;
+    border: 0.5px solid #DEDEDE;
+    box-sizing: border-box;
+}
+
+th {
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #5A5A5A;
+}
+
+td {}
+
+td:nth-child(1) {
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+
+}
+
+td:nth-child(3) {
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.Section_PageResult {
+    float: right;
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.Section_PageResult a {
+    margin-right: 35px;
+    color: #000000;
+}
+
+.Section_PageResult a hover {}
+
+.search_wrap {
+    display: flex
+}
+
+.Attached_wrap {
+    display: flex
+}
+
+.search_bar {
+    float: right;
+    margin: 23px
+}
+
+.h33 h3 {
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    color: #2B2C36;
+    margin: 23px
+}
+
+.table_headings {
+    display: flex
+}
+
+.btn {
+    font-weight: 300;
+    text-decoration: none;
+    width: 139px;
+    height: 40px;
+}
+
+.btn-full {
+    background: #484952;
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.btn-full:hover {
+    color: white
+}
+
+::placeholder {
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9.84373px;
+    line-height: 20px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.140625px;
+
+    /* second-text-color */
+
+    color: #737373;
+}
+
+
+
+.btn-full2 {
+    background: #484952;
+    border: 0.522222px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 0px 2.61111px 2.61111px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.104444px;
+    color: #FFFFFF;
+    font-family: Roboto-Regular;
+}
+
+.modal-content {
+    width: 549px;
+    height: 279px;
+}
+
+.btns {
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.104444px;
+    background: #484952;
+    border: 0.522222px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 0px 2.61111px 2.61111px 0px;
+    color: #FFFFFF;
+}
+
+
+.btnSave {
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+}
+
+.btn_primarySave {
+    background: #484952;
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.btnSave:hover {
+    color: white
+}
+
+.btn-fullSave {
+
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #484952;
+    border-radius: 5px;
+    text-align: center;
+    width: 85px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #E6E6E6;
+}
+
+.btn-fullFile {
+
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #484952;
+    border: 0.522222px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 0px 2.61111px 2.61111px 0px;
+    text-align: center;
+    width: 86px;
+    height: 34px;
+    letter-spacing: 0.104444px;
+
+}
+
+.modal-title {
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #2B2C36;
+}
+
+.log-out-outline {
+    font-size: 20px
+}
