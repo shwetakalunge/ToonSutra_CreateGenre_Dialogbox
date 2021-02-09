@@ -360,3 +360,19 @@ td:nth-child(3) {
 .log-out-outline {
     font-size: 20px
 }
+
+::placeholder {
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 122% */
+
+    letter-spacing: 0.104444px;
+
+    /* second-text-color */
+
+    color: #737373;
+    padding: 15px;
+}
